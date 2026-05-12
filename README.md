@@ -27,3 +27,6 @@ Le projet a permis de:
 - Production moyenne journalière: ~150 000 kWh.
 - Détection automatique de seuils bas, notifications immédiates.
 - Mise à jour quotidienne du rapport et des données en moins de 10 minutes.
+
+  ## Auteur
+Mamadou Mouctar Camara
