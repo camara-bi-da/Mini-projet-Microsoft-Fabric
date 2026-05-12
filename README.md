@@ -7,11 +7,11 @@ L’enjeu principal était donc d’automatiser la collecte, le nettoyage, la tr
 - Faciliter la prise de décision opérationnelle.
 ## 2️ Approche technique choisie
 Le projet met en œuvre une architecture en médaillons (Bronze, Silver, Gold) entièrement orchestrée dans Microsoft Fabric, en s’appuyant sur plusieurs composants intégrés :
-- Bronze (Lakehouse Bronze) : ingestion des données brutes depuis un fichier CSV et des fichiers quotidiens issus d’une page web.<br>
-- Silver Layer (Lakehouse Silver) : nettoyage, enrichissement et préparation des données via deux méthodes:<br>
+- Bronze (Lakehouse Bronze): ingestion des données brutes depuis un fichier CSV et des fichiers quotidiens issus d’une page web.<br>
+- Silver (Lakehouse Silver): nettoyage, enrichissement et préparation des données via deux méthodes:<br>
   - Dataflow Gen2 (approche no-code)
   - Notebook Spark Python (approche code)
-- Gold Layer (Lakehouse Gold) : modélisation en schéma en étoile (tables de faits et de dimensions) prête pour la BI.<br>
+- Gold (Lakehouse Gold): modélisation en schéma en étoile (tables de faits et de dimensions) prête pour la BI.<br>
 - Power BI: création de modèles sémantiques et de rapports interactifs analysant la production d’électricité par jour, heure, et turbine.<br>
 - Data Factory: orchestration complète du processus (pipeline d’ingestion, transformation, mise à jour du rapport).<br>
 - Reflex/Data Activator: configuration d’alertes automatiques (Outlook/Teams) en cas d’anomalie de production (<120 000 kWh/jour).<br>
