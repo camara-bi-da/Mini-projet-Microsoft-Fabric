@@ -1,14 +1,12 @@
 # Mini-projet: Microsoft Fabric-Suivi automatisé de la production éolienne
 ## 1️ Problème métier
 Les données issues de capteurs installés sur trois éoliennes étaient collectées toutes les 10 minutes, mais leur traitement, analyse et visualisation nécessitaient des interventions manuelles.
-L’enjeu principal était donc d’automatiser la collecte, le nettoyage, la transformation, l’analyse et la surveillance des données de production électrique afin de :
-
+L’enjeu principal était donc d’automatiser la collecte, le nettoyage, la transformation, l’analyse et la surveillance des données de production électrique afin de:
 - Mieux suivre la performance des éoliennes au quotidien,<br>
 - Identifier les anomalies de production,<br>
 - Faciliter la prise de décision opérationnelle.
 ## 2️ Approche technique choisie
 Le projet met en œuvre une architecture en médaillons (Bronze, Silver, Gold) entièrement orchestrée dans Microsoft Fabric, en s’appuyant sur plusieurs composants intégrés :
-
 - Bronze (Lakehouse Bronze) : ingestion des données brutes depuis un fichier CSV et des fichiers quotidiens issus d’une page web.<br>
 - Silver Layer (Lakehouse Silver) : nettoyage, enrichissement et préparation des données via deux méthodes:<br>
   - Dataflow Gen2 (approche no-code)
