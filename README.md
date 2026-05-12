@@ -13,7 +13,7 @@ Le projet met en œuvre une architecture en médaillons (Bronze, Silver, Gold) e
   - Notebook Spark Python (approche code)
 - Gold Layer (Lakehouse Gold) : modélisation en schéma en étoile (tables de faits et de dimensions) prête pour la BI.<br>
 - Power BI: création de modèles sémantiques et de rapports interactifs analysant la production d’électricité par jour, heure, et turbine.<br>
-- Data Factory: orchestration complète du processus (pipeline d’ingestion → transformation → mise à jour du rapport).<br>
+- Data Factory: orchestration complète du processus (pipeline d’ingestion, transformation, mise à jour du rapport).<br>
 - Reflex/Data Activator: configuration d’alertes automatiques (Outlook/Teams) en cas d’anomalie de production (<120 000 kWh/jour).<br>
 L’ensemble du pipeline s’exécute quotidiennement sans intervention manuelle.
 
