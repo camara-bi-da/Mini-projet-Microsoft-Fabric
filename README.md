@@ -1,4 +1,4 @@
-# Mini-projet: Microsoft Fabric-Suivi automatisé de la production éolienne
+# Mini-projet: Microsoft Fabric-suivi automatisé de la production éolienne
 ## 1️ Problème métier
 Les données issues de capteurs installés sur trois éoliennes étaient collectées toutes les 10 minutes, mais leur traitement, analyse et visualisation nécessitaient des interventions manuelles.
 L’enjeu principal était donc d’automatiser la collecte, le nettoyage, la transformation, l’analyse et la surveillance des données de production électrique afin de:
