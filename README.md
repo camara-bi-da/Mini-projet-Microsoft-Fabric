@@ -6,7 +6,7 @@ L’enjeu principal était donc d’automatiser la collecte, le nettoyage, la tr
 - Identifier les anomalies de production,<br>
 - Faciliter la prise de décision opérationnelle.
 ## 2️ Approche technique choisie
-Le projet met en œuvre une architecture en médaillons (Bronze, Silver, Gold) entièrement orchestrée dans Microsoft Fabric, en s’appuyant sur plusieurs composants intégrés :
+Le projet met en œuvre une architecture en médaillons (Bronze, Silver, Gold) entièrement orchestrée dans Microsoft Fabric, en s’appuyant sur plusieurs composants intégrés:
 - Bronze (Lakehouse Bronze): ingestion des données brutes depuis un fichier CSV et des fichiers quotidiens issus d’une page web.<br>
 - Silver (Lakehouse Silver): nettoyage, enrichissement et préparation des données via deux méthodes:<br>
   - Dataflow Gen2 (approche no-code)
@@ -23,7 +23,7 @@ Le projet a permis de:
 - Visualiser la production d’électricité par turbine, région et période dans Power BI.
 - Détecter rapidement les anomalies ou baisses de production grâce à un système d’alertes automatiques.
 - Réduire les efforts manuels et améliorer la réactivité opérationnelle.
-### KPIs principaux observés:
+#### KPIs principaux observés:
 - Production moyenne journalière: ~150 000 kWh.
 - Détection automatique de seuils bas, notifications immédiates.
 - Mise à jour quotidienne du rapport et des données en moins de 10 minutes.
