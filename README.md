@@ -27,5 +27,5 @@ Le projet a permis de:
 - Réduire les efforts manuels et améliorer la réactivité opérationnelle.
 ### KPIs principaux observés:
 - Production moyenne journalière: ~150 000 kWh.
-- Détection automatique de seuils bas → notifications immédiates.
+- Détection automatique de seuils bas, notifications immédiates.
 - Mise à jour quotidienne du rapport et des données en moins de 10 minutes.
