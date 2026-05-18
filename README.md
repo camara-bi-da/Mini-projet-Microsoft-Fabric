@@ -13,7 +13,7 @@ Le projet met en œuvre une architecture en médaillons (Bronze, Silver, Gold) e
 - Gold (Lakehouse Gold): modélisation en schéma en étoile (tables de faits et de dimensions) prête pour la BI.
 - Power BI: création de modèles sémantiques et de rapports interactifs analysant la production d'électricité par jour, heure, et turbine.
 - Data Factory: orchestration complète du processus (pipeline d'ingestion, transformation, mise à jour du rapport).
-- Reflex/Data Activator: configuration d’alertes automatiques (Outlook/Teams) en cas d'anomalie de production (<120 000 kWh/jour). L'ensemble du pipeline s’exécute quotidiennement sans intervention manuelle.
+- Reflex/Data Activator: configuration d’alertes automatiques (Outlook/Teams) en cas d'anomalie de production (<120 000 kWh/jour). L'ensemble du pipeline s'exécute quotidiennement sans intervention manuelle.
 
 ## 3-Insights et résultats générés
 Le projet a permis de:
